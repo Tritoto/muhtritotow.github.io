@@ -25,6 +25,7 @@ section.home {
 }
 
 p.hello {
+    z-index: 99;
     font-size: 24px;
     color: #ECC080;
 }
@@ -83,4 +84,21 @@ img.art5{
     left: 0;
     position: absolute;
     top: 550px;
+}
+
+.up{
+    position: fixed;
+    top: 50px;
+}
+.middle{
+    z-index: 1;
+    position: absolute;
+    top: 160px;
+    left: 150px;
+    opacity: 0.4;
+}
+.down{
+    position: fixed;
+    bottom: 0;
+    left: 80px;
 }
