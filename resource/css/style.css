@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat";
+    background-color: #201F1F;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.text-section{
+    padding-top: 200px;
+}
+
+section.home {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+p.hello {
+    font-size: 24px;
+    color: #ECC080;
+}
+h1.nama{
+    padding-top: 30px;
+    font-size: 48px;
+    color: white;
+}
+p.desc{
+    padding-top: 5px;
+    font-size: 24px;
+    color: white;
+}
+.img-icon img{
+    padding-top: 40px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+}
+
+.jumbotron-img{
+    position: relative;
+}
+.jumbotron-img img{
+    right: 0;
+    position: absolute;
+    
+}
+img.self{
+    right: 50px;
+    top: 100px;
+    position: absolute;
+}
+img.art1{
+    padding-top: 40px;
+    right: 0;
+    position: absolute;
+}
+img.art2{
+    left: 0;
+    position: absolute;
+    padding-top: 160px;
+    padding-left: 90px;
+}
+img.art3{
+    left: 30px;
+    position: absolute;
+    bottom: 150px;
+   
+}
+img.art4{
+    left: 300px;
+    position: absolute;
+    bottom: 0px;
+}
+img.art5{
+    left: 0;
+    position: absolute;
+    top: 550px;
+}
