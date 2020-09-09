@@ -49,6 +49,7 @@ h1.nama{
     padding-top: 30px;
     font-size: 48px;
     color: white;
+    background-color: transparent;
 }
 p.desc{
     padding-top: 5px;
@@ -118,4 +119,73 @@ img.art5{
     position: fixed;
     bottom: 0;
     left: 80px;
+    background-image: transparent;
+}
+
+@media(max-width: 450px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        width: 375px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    section.home{
+        grid-template-columns: none;
+    }
+    .up{
+        position: fixed;
+        top: 30px;
+        width: 115px;
+    }
+    .middle{
+        position: absolute;
+        top: 170px;
+        left: 85px;
+        width: 59px;
+    }
+    .down{
+        position: fixed;
+        top: 546px;
+        left: 235px;
+        width: 100px;
+    }
+    p.hello{
+        font-size: 18px;
+        text-align: center;
+    }
+    h1.nama{
+        padding-top: 12px;
+        font-size: 24px;
+        text-align: center;
+    }
+    p.desc{
+        padding-top: 12px;
+        font-size: 18px;
+        text-align: center;
+    }
+    #email{
+        padding-top: 30px;
+        padding-right: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #ig{
+        padding-left: 85px;
+    }
+    #ig, #github, #wa, #ld{
+        padding-top: 15px;
+    }
+    #cv{
+        padding-left: 116px;
+    }
+
+    .jumbotron-img{
+        display: none;
+    }
+
+
 }
